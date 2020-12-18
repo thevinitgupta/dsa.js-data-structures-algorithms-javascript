@@ -11,7 +11,7 @@ array.push(4); // array: [2, 5, 1, 9, 6, 7, 4]
 // Insert/update values anywhere
 array[8] = 3; // array: [2, 5, 1, 9, 6, 7, 4, empty, 3]
 
-// Insert to head, changes every index
+// Insert to head, changes every index and returns new length of the array
 array.unshift(0); // array: [0, 2, 5, 1, 9, 6, 7, 4, empty, 3];
 
 // Deleting could change all the indexes
@@ -31,3 +31,6 @@ array.splice(2, 1); // delete 1 element at position 2
 
 // Deleting last element from the array
 array.pop(); // => array: [2, 5, 1, 9, 6]
+
+//Reversing the array
+array.reverse();
